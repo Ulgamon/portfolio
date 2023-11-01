@@ -4,4 +4,11 @@
 
 body {
   background-color: black;
+  overflow-x: hidden;
+  /* I will put overscroll x hidden so i dont see it in my transitions */
+}
+
+::selection {
+  color: rgb(64, 171, 93);
+  background: yellow;
 }
