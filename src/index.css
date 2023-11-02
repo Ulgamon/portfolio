@@ -4,11 +4,16 @@
 
 body {
   background-color: black;
-  overflow-x: hidden;
+  overflow: hidden;
   /* I will put overscroll x hidden so i dont see it in my transitions */
 }
 
 ::selection {
-  color: rgb(64, 171, 93);
-  background: yellow;
+  color: rgb(0, 0, 0);
+  background: white;
+}
+
+.realisticshadow {
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
 }
