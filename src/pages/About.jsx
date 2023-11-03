@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
+import NavBar from "../components/NavBar/NavBar";
 
 const About = () => {
   return (
     <div className="w-full min-h-screen bg-pastelBlue-secondary text-6xl overflow-auto">
-      <p>About</p>
-      <Link to={"/"}>Idi Nazad</Link>
       <section className="w-1/2 max-w-[1240px] rounded-xl p-10 mx-auto bg-dirtyWhite realisticshadow">
         <h1>About Me</h1>
         <p className="text-lg">
@@ -30,6 +29,7 @@ const About = () => {
           sapiente et. Ipsum ad aliquam ducimus, facilis dicta accusantium?
         </p>
       </section>
+      <NavBar />
     </div>
   );
 };

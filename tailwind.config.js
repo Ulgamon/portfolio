@@ -15,6 +15,8 @@ export default {
         pastelOrange: {
           primary: "#ffc09f",
           secondary: "#f7d9c4",
+          complementarySec: "#C4E2F7",
+          triadGreen: "#E2F7C4",
         },
         dirtyWhite: "#eff0ff",
       },

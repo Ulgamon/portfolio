@@ -23,7 +23,7 @@ const MainLink = ({ to, title, className, textClassName }) => {
   };
 
   return (
-    <div className="w-full h-48 mx-auto flex justify-stretch items-center overflow-hidden">
+    <div className="w-full h-48 me-5 mx-auto flex justify-stretch items-center overflow-hidden">
       <animated.div
         ref={linkRef}
         style={{
@@ -34,7 +34,7 @@ const MainLink = ({ to, title, className, textClassName }) => {
         onMouseLeave={handleMouseLeave}
         onMouseMove={handleMouseMove}
         className={
-          "text-8xl my-2 ms-32 p-2 px-10 ease-out transition-shadow delay-500 hover:shadow-md will-change-transform " +
+          "text-8xl w-full my-2 me-4 ms-32 p-2 px-10 ease-out transition-shadow delay-500 hover:shadow-md will-change-transform " +
           className
         }
       >
