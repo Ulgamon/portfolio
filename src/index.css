@@ -17,3 +17,43 @@ body {
   box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
     5px 5px 9px rgba(94, 104, 121, 0.3);
 }
+
+@font-face {
+  font-family: "Sarina";
+  src: local("Sarina-Regular"),
+    url("./fonts/Sarina-Regular.ttf") format("truetype");
+}
+
+.font-sarina {
+  font-family: "Sarina";
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: local("PlayfairDisplay-Regular"),
+    url("./fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf")
+      format("truetype");
+}
+
+.font-playfair-reg {
+  font-family: "PlayfairDisplay-Regular";
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Medium";
+  src: local("PlayfairDisplay-Medium"),
+    url("./fonts/PlayfairDisplay/PlayfairDisplay-Medium.ttf") format("truetype");
+}
+
+.font-playfair-reg {
+  font-family: "PlayfairDisplay-Medium";
+}
+
+@font-face {
+  font-family: "Proximanova";
+  src: local("Proximanova"), url("./fonts/Proximanova.otf") format("opentype");
+}
+
+.font-proximanova {
+  font-family: "Proximanova";
+}

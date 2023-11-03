@@ -7,7 +7,9 @@ const MainLink = ({ to, title, className, textClassName }) => {
 
   const [{ xys }, api] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: {},
+    config: {
+      mass: 10,
+    },
   }));
 
   const handleMouseLeave = () =>
@@ -34,15 +36,14 @@ const MainLink = ({ to, title, className, textClassName }) => {
         onMouseLeave={handleMouseLeave}
         onMouseMove={handleMouseMove}
         className={
-          "text-8xl w-full my-2 me-4 ms-32 p-2 px-10 ease-out transition-shadow delay-500 hover:shadow-md will-change-transform " +
+          "text-7xl w-full my-2 me-4 ms-32 p-2 px-10 ease-out transition-shadow delay-500 hover:shadow-md will-change-transform " +
           className
         }
       >
-        <h2 className="text-black text-center">
+        <h2 className="text-black text-center font-sarina">
           <Link to={to}>{title}</Link>
         </h2>
       </animated.div>
-      
     </div>
   );
 };

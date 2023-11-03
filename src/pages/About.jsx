@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar/NavBar";
+import bg from "../assets/bg2.png";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen bg-pastelBlue-secondary text-6xl overflow-auto">
-      <section className="w-1/2 max-w-[1240px] rounded-xl p-10 mx-auto bg-dirtyWhite realisticshadow">
-        <h1>About Me</h1>
-        <p className="text-lg">
+    <div
+      className="w-full min-h-screen bg-pastelBlue-secondary py-10 text-6xl overflow-auto"
+      style={{ backgroundImage: `url(${bg})`, backgroundRepeat: "repeat" }}
+    >
+      <section className="w-1/2 max-w-[1240px] rounded-xl p-10 mx-auto bg-slate-900 text-dirtyWhite realisticshadow">
+        <h1 className="font-sarina text-center mb-5">About Me</h1>
+        <p className="text-xl font-playfair-reg">Tojica</p>
+        <p className="text-lg font-proximanova">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
           aperiam ad. Recusandae distinctio voluptate soluta accusantium ea
           laborum in saepe repellat impedit dolorum ullam dicta sunt ipsam,

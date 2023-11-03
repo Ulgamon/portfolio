@@ -15,17 +15,17 @@ const HomePage = () => {
       <div className="flex flex-col justify-items-stretch">
         <MainLink
           to={"/about"}
-          title={"ABOUT ME"}
+          title={"About Me"}
           className={"bg-pastelBlue-primary text-transparent font-bold"}
         />
         <MainLink
           to={"/projects"}
-          title={"PROJECTS"}
+          title={"Projects"}
           className={"bg-pastelGreen-primary font-bold"}
         />
         <MainLink
           to={"/contact"}
-          title={"CONTACT"}
+          title={"Contact"}
           className={"bg-pastelOrange-primary font-bold"}
         />
       </div>
