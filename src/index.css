@@ -4,8 +4,21 @@
 
 body {
   background-color: black;
-  overflow: hidden;
+  overflow-x: hidden;
   /* I will put overscroll x hidden so i dont see it in my transitions */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eff0ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0f172a;
 }
 
 ::selection {
