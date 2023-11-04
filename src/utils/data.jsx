@@ -1,9 +1,9 @@
 import gazdinstvo from "../assets/gazdinstvo.png";
 import cybertruck from "../assets/cybertruck.png";
 import firewatch from "../assets/firewatch.png";
+import portfolio from "../assets/portfolio.png";
 import { DiMysql } from "react-icons/di";
-import { VscDatabase } from "react-icons/vsc";
-import { PiPackageFill } from "react-icons/fi";
+import { LuPackage } from "react-icons/lu";
 import { SiVite } from "react-icons/si";
 import {
   BiLogoReact,
@@ -97,78 +97,77 @@ const tailwindcss = {
 const reactQuery = {
   title: "react-query",
   url: "https://tanstack.com/query/v3/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const lottieReact = {
   title: "littie-react",
   url: "https://lottiereact.com/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const reactRouter = {
   title: "react-router",
   url: "https://reactrouter.com/en/main",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const reactSpring = {
   title: "@react-spring",
   url: "https://www.react-spring.dev/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 
 // Backend NodeJS
 const express = {
   title: "express",
   url: "https://expressjs.com/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const bcrypt = {
   title: "bcrypt",
   url: "https://www.npmjs.com/package/bcryptjs",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const multer = {
   title: "multer",
   url: "https://www.npmjs.com/package/multer",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const bodyparser = {
   title: "body-parser",
   url: "https://www.npmjs.com/package/body-parser",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const mongoose = {
   title: "mongoose",
   url: "https://mongoosejs.com/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const expressvalidator = {
   title: "express-validator",
   url: "https://www.npmjs.com/package/bcryptjs",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const jsonwebtoken = {
   title: "jsonwebtoken",
   url: "https://www.npmjs.com/package/jsonwebtoken",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 const awssdk = {
   title: "@aws-sdk",
   url: "https://aws.amazon.com/sdk-for-javascript/",
-  iconEl: <PiPackageFill />,
+  iconEl: <LuPackage />,
 };
 
 export const projectData = [
   {
+    id: 0,
     title: "Gazdinstvo Damjan",
     shortDescription: "Volunteer e-commerce project.",
     longDescription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
-    links: [
-      {
-        url: "https://gazdinstvodamjan.com",
-        title: "Gazdinstvo Damjan",
-      },
-    ],
+    link: {
+      url: "https://gazdinstvodamjan.com",
+      title: "Gazdinstvo Damjan",
+    },
     imagePath: gazdinstvo,
     stack: [
       aws,
@@ -193,17 +192,16 @@ export const projectData = [
     ],
   },
   {
+    id: 1,
     title: "Tesla Cybertruck",
     shortDescription:
       "I really liked the design and the animations of the site.",
     longDescription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
-    links: [
-      {
-        url: "https://d1q42h8kfu47gl.cloudfront.net",
-        title: "Tesla Cybertruck",
-      },
-    ],
+    link: {
+      url: "https://d1q42h8kfu47gl.cloudfront.net",
+      title: "Tesla Cybertruck",
+    },
     imagePath: cybertruck,
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
     githubLink: {
@@ -212,17 +210,17 @@ export const projectData = [
     },
   },
   {
+    id: 2,
     title: "Firewatch",
     shortDescription:
       "I really liked the design and the animations of the site.",
     longDescription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
-    links: [
-      {
-        url: "https://d2aiq123gknzes.cloudfront.net/",
-        title: "Firewatch",
-      },
-    ],
+    link: {
+      url: "https://d2aiq123gknzes.cloudfront.net/",
+      title: "Firewatch",
+    },
+
     imagePath: firewatch,
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
     githubLink: {
@@ -231,21 +229,33 @@ export const projectData = [
     },
   },
   {
+    id: 3,
     title: "Portfolio",
     shortDescription: "You are currently there hope you like it :)",
     longDescription:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
-    links: [
-      {
-        url: "https://localhost:5173",
-        title: "Portfolio",
-      },
-    ],
-    imagePath: firewatch,
+    link: {
+      url: "https://localhost:5173",
+      title: "Portfolio",
+    },
+    imagePath: portfolio,
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring, reactRouter],
     githubLink: {
       url: "https://github.com/Ulgamon/portfolio",
       title: "GitHub",
     },
   },
+];
+
+export const myStack = [
+  aws,
+  Html,
+  CSS,
+  JavaScript,
+  NodeJS,
+  React,
+  mongoDB,
+  MySQL,
+  github,
+  docker,
 ];

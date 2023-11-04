@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import ProjectID from "./pages/ProjectID";
 
 function App() {
   let location = useLocation();
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/:id" element={<ProjectID />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </animated.div>

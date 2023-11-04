@@ -63,10 +63,20 @@ body {
 }
 
 @font-face {
-  font-family: "Proximanova";
-  src: local("Proximanova"), url("./fonts/Proximanova.otf") format("opentype");
+  font-family: "Gotham";
+  src: local("GothamLight"), url("./fonts/GothamLight.ttf") format("truetype");
 }
 
-.font-proximanova {
-  font-family: "Proximanova";
+.font-gotham {
+  font-family: "Gotham";
+}
+
+.shadow1 {
+  box-shadow: 3.3px 6.6px 6.6px hsl(0deg 0% 0% / 0.4);
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.shadow1:hover {
+  box-shadow: 7.2px 14.4px 14.4px hsl(0deg 0% 0% / 0.28);
 }

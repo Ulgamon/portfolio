@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import { VscSend } from "react-icons/vsc";
 import NavBar from "../components/NavBar/NavBar";
 
 const Contact = () => {
   return (
     <div className="w-full min-h-screen bg-pastelOrange-secondary flex justify-center items-center text-slate-800">
-      <div class="w-1/2 mx-auto bg-white p-10 rounded-lg realisticshadow font-proximanova">
+      <div class="w-1/2 mx-auto bg-white p-10 rounded-lg realisticshadow font-gotham">
         <h1 className="text-5xl mb-2 text-center font-sarina">Contact</h1>
         <form
           target="_blank"
@@ -14,7 +13,7 @@ const Contact = () => {
         >
           <div className="w-full">
             <div>
-              <div className="flex flex-col mb-4 font-proximanova">
+              <div className="flex flex-col mb-4 font-gotham">
                 <label className="font-playfair-reg ms-1">Full Name:</label>
                 <input
                   type="text"

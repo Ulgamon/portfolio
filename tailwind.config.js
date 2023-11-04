@@ -10,7 +10,8 @@ export default {
         },
         pastelGreen: {
           primary: "#adf7b6",
-          secondary: "#c9e4de",
+          secondary: "#F7DBAD",
+          tertiary: "#ADC9F7",
         },
         pastelOrange: {
           primary: "#ffc09f",
