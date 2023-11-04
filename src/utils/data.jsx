@@ -1,4 +1,6 @@
 import gazdinstvo from "../assets/gazdinstvo.png";
+import cybertruck from "../assets/cybertruck.png";
+import firewatch from "../assets/firewatch.png";
 import { DiMysql } from "react-icons/di";
 import { VscDatabase } from "react-icons/vsc";
 import { PiPackageFill } from "react-icons/fi";
@@ -157,7 +159,6 @@ const awssdk = {
 
 export const projectData = [
   {
-    id: "1",
     title: "Gazdinstvo Damjan",
     shortDescription: "Volunteer e-commerce project.",
     longDescription:
@@ -169,5 +170,82 @@ export const projectData = [
       },
     ],
     imagePath: gazdinstvo,
+    stack: [
+      aws,
+      awssdk,
+      Html,
+      CSS,
+      tailwindcss,
+      mongoDB,
+      mongoose,
+      NodeJS,
+      express,
+      React,
+      vite,
+      bcrypt,
+      multer,
+      bodyparser,
+      expressvalidator,
+      jsonwebtoken,
+      reactQuery,
+      reactRouter,
+      lottieReact,
+    ],
+  },
+  {
+    title: "Tesla Cybertruck",
+    shortDescription:
+      "I really liked the design and the animations of the site.",
+    longDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    links: [
+      {
+        url: "https://d1q42h8kfu47gl.cloudfront.net",
+        title: "Tesla Cybertruck",
+      },
+    ],
+    imagePath: cybertruck,
+    stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
+    githubLink: {
+      url: "https://github.com/Ulgamon/cybertruck",
+      title: "GitHub",
+    },
+  },
+  {
+    title: "Firewatch",
+    shortDescription:
+      "I really liked the design and the animations of the site.",
+    longDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    links: [
+      {
+        url: "https://d2aiq123gknzes.cloudfront.net/",
+        title: "Firewatch",
+      },
+    ],
+    imagePath: firewatch,
+    stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
+    githubLink: {
+      url: "https://github.com/Ulgamon/firewatch",
+      title: "GitHub",
+    },
+  },
+  {
+    title: "Portfolio",
+    shortDescription: "You are currently there hope you like it :)",
+    longDescription:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    links: [
+      {
+        url: "https://localhost:5173",
+        title: "Portfolio",
+      },
+    ],
+    imagePath: firewatch,
+    stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring, reactRouter],
+    githubLink: {
+      url: "https://github.com/Ulgamon/portfolio",
+      title: "GitHub",
+    },
   },
 ];
