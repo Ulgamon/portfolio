@@ -1,5 +1,5 @@
 import MainLink from "../components/MainLink/MainLink";
-import src from "../assets/main.avif";
+import src from "../assets/bg3.jpg";
 
 const HomePage = () => {
   return (
@@ -11,12 +11,12 @@ const HomePage = () => {
         backgroundSize: "cover",
       }}
     >
-      <p className="text-white text-6xl">Hello</p>
-      <div className="flex flex-col justify-items-stretch">
+      d
+      <div className="flex flex-col justify-items-stretch me-16">
         <MainLink
           to={"/about"}
           title={"About Me"}
-          className={"bg-pastelBlue-primary text-transparent font-bold"}
+          className={"bg-pastelBlue-primary font-bold"}
         />
         <MainLink
           to={"/projects"}

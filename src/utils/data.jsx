@@ -161,9 +161,13 @@ export const projectData = [
   {
     id: 0,
     title: "Gazdinstvo Damjan",
-    shortDescription: "Volunteer e-commerce project.",
-    longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    shortDescription: "Full stack e-commerce project.",
+    longDescription: `My most significant volunteer project. It's a full-stack web e-commerce application for selling honey. 
+It uses Node.js and Express for server-side logic, React for front-end, and MongoDB database. I was responsible
+ for its design and creation. It supports features like authentication (log in, sign up, account verification, 
+  password reset), cart (adding, removing, updating, reading), and orders (ordering items, generating PDF invoices,
+     and sending invoices via email). The task was quite challenging but I gained a lot of knowledge from it. I'm glad I
+      took it. And if you ever feel bored on it, you can always click on the bee and take it for a fly with the arrow keys. `,
     link: {
       url: "https://gazdinstvodamjan.com",
       title: "Gazdinstvo Damjan",
@@ -196,8 +200,14 @@ export const projectData = [
     title: "Tesla Cybertruck",
     shortDescription:
       "I really liked the design and the animations of the site.",
-    longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    longDescription: `This project is a recreation of a well-known Tesla Cybertruck website. The idea was to copy 
+    this site to demonstrate that I can do my job using the given design. The components and animations were
+     all built by me, and they can be found on my Github repository at the link above. The application uses 
+     React (Vite) for building and managing components, which I find to be a great tool for front-end development 
+     and I love using it. I used Tailwind CSS for styling, which goes well with React because you can reuse your
+      components and style them only once. I used the @react-spring library for physics-based animations that look very natural 
+      to the human eye. The project was deployed on AWS. I uploaded Dist folder to AWS S3 bucket and used CloudFront for distributing 
+      it with low latency, as it uses regional edge locations and edge locations to cache data very close to the users.`,
     link: {
       url: "https://d1q42h8kfu47gl.cloudfront.net",
       title: "Tesla Cybertruck",
@@ -214,8 +224,11 @@ export const projectData = [
     title: "Firewatch",
     shortDescription:
       "I really liked the design and the animations of the site.",
-    longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    longDescription: `Firewatch. Their website is awesome and I really liked it. They use parallax effect to create the 
+    illusion of distance as the elements move at different speeds when scrolling e.g., closest element moves much faster
+     than the most distant object. I used React for building this project and wanted to show that I can work from design. 
+     The project was deployed on AWS using CloudFront CDN for content delivery. I used @react-spring for Parallax animation.
+      They didn't use physics-based animation, and I find mine better because it feels more natural.`,
     link: {
       url: "https://d2aiq123gknzes.cloudfront.net/",
       title: "Firewatch",
@@ -231,9 +244,9 @@ export const projectData = [
   {
     id: 3,
     title: "Portfolio",
-    shortDescription: "You are currently there hope you like it :)",
-    longDescription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum deserunt mollitia sit? Dolores ad, voluptatibus soluta velit vitae molestiae sapiente, recusandae magnam quis autem laboriosam enim id fugiat suscipit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, dicta esse. Saepe voluptatibus praesentium cum. Quibusdam, eum! Labore quibusdam dolor repellendus reprehenderit, soluta quod. Eum quis beatae repellat nemo. Nobis?",
+    shortDescription:
+      "This is the site you are currently on. I hope you like it :).",
+    longDescription: `I built this site to showcase my projects and skills.`,
     link: {
       url: "https://localhost:5173",
       title: "Portfolio",
