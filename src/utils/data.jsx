@@ -100,7 +100,7 @@ const reactQuery = {
   iconEl: <LuPackage />,
 };
 const lottieReact = {
-  title: "littie-react",
+  title: "lottie-react",
   url: "https://lottiereact.com/",
   iconEl: <LuPackage />,
 };
@@ -206,7 +206,7 @@ export const projectData = [
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
     githubLink: {
       url: "https://github.com/Ulgamon/cybertruck",
-      title: "GitHub",
+      title: "Tesla Cybertruck",
     },
   },
   {
@@ -225,7 +225,7 @@ export const projectData = [
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring],
     githubLink: {
       url: "https://github.com/Ulgamon/firewatch",
-      title: "GitHub",
+      title: "Firewatch",
     },
   },
   {
@@ -242,7 +242,7 @@ export const projectData = [
     stack: [aws, Html, CSS, tailwindcss, React, vite, reactSpring, reactRouter],
     githubLink: {
       url: "https://github.com/Ulgamon/portfolio",
-      title: "GitHub",
+      title: "Portfolio",
     },
   },
 ];

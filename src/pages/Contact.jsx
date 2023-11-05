@@ -1,5 +1,4 @@
 import { VscSend } from "react-icons/vsc";
-import NavBar from "../components/NavBar/NavBar";
 
 const Contact = () => {
   return (
@@ -50,7 +49,6 @@ const Contact = () => {
           </button>
         </form>
       </div>
-      <NavBar />
     </div>
   );
 };

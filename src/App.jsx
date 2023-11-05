@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import ProjectID from "./pages/ProjectID";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   let location = useLocation();
@@ -29,6 +30,7 @@ function App() {
           </Routes>
         </animated.div>
       ))}
+      <NavBar />
     </>
   );
 }

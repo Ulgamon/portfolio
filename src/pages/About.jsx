@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar/NavBar";
 import bg from "../assets/bg2.png";
 
 const About = () => {
@@ -34,7 +33,6 @@ const About = () => {
           sapiente et. Ipsum ad aliquam ducimus, facilis dicta accusantium?
         </p>
       </section>
-      <NavBar />
     </div>
   );
 };
