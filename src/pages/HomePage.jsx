@@ -15,7 +15,7 @@ const HomePage = () => {
       }}
     >
       <div className="w-full mx-auto md:w-3/4 lg:w-1/2 max-w-[800px] rounded-2xl bg-white mb-5">
-        <h1 className="text-4xl md:text-6xl font-sarina text-gray-800 pt-10 px-10">
+        <h1 className="text-4xl text-center md:text-6xl font-sarina text-gray-800 pt-10 px-5">
           Hi, I'm Justin - Web Developer
         </h1>
         <div className="w-full flex justify-center text-gray-800 p-5">

@@ -136,7 +136,12 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex flex-col mb-4">
-            <label className="font-playfair-reg ms-1">Message:</label>
+            <label className="font-playfair-reg ms-1">
+              Message:{" "}
+              <p className="inline text-red-500 font-gotham">
+                {messageInvalidInput ? "cannot leave empty" : ""}
+              </p>
+            </label>
             <textarea
               placeholder="Your Message"
               value={message}

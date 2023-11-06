@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  background-color: whitesmoke;
   overflow-x: hidden;
   /* I will put overscroll x hidden so i dont see it in my transitions */
 }
