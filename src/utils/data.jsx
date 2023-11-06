@@ -57,7 +57,7 @@ const NodeJS = {
 
 const Html = {
   title: "HTML",
-  url: "https://en.wikipedia.org/wiki/HTML",
+  url: "https://html.com/",
   iconEl: <BiLogoHtml5 />,
 };
 
