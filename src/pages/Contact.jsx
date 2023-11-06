@@ -2,8 +2,8 @@ import { VscSend } from "react-icons/vsc";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen bg-pastelOrange-secondary flex justify-center items-center text-slate-800">
-      <div class="w-1/2 mx-auto bg-white p-10 rounded-lg realisticshadow font-gotham">
+    <div className="w-full min-h-screen bg-pastelOrange-secondary px-1 flex justify-center items-center text-slate-800">
+      <div class="w-full md:w-3/4 lg:w-1/2 max-w-[800px] mx-auto bg-white p-10 rounded-lg realisticshadow font-gotham">
         <h1 className="text-5xl mb-2 text-center font-sarina">Contact</h1>
         <form
           target="_blank"

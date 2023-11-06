@@ -4,15 +4,19 @@ import src from "../assets/bg3.jpg";
 const HomePage = () => {
   return (
     <div
-      className="w-full text-6xl grid grid-cols-2 bg-white min-h-screen"
+      className="w-full py-16 bg-white px-1 min-h-screen"
       style={{
         backgroundImage: `url(${src})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
     >
-      d
-      <div className="flex flex-col justify-items-stretch me-16">
+      <div className="w-full mx-auto md:w-3/4 lg:w-1/2 max-w-[800px] rounded-lg bg-white my-5">
+        <h1 className="text-4xl md:text-6xl font-sarina text-slate-900 py-10 px-5">
+          Hi, I'm Justin - Web Developer
+        </h1>
+      </div>
+      <div className="w-full md:w-3/4 lg:w-1/2 max-w-[800px] mx-auto flex flex-col justify-items-stretch">
         <MainLink
           to={"/about"}
           title={"About Me"}

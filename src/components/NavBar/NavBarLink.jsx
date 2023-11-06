@@ -11,7 +11,7 @@ const NavBarLink = ({ to, element, title, isLast }) => {
             (isActive
               ? " text-slate-950 bg-white shadow-inner "
               : " text-dirtyWhite bg-slate-900 ") +
-            (isLast ? "" : " mb-0.5")
+            (isLast ? "" : "me-0.5 lg:me-0 lg:mb-0.5")
           }
         >
           {element}

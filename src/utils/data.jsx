@@ -75,7 +75,7 @@ const JavaScript = {
 
 const github = {
   title: "GitHub",
-  url: "https://tailwindcss.com/",
+  url: "https://github.com/",
   iconEl: <BiLogoGithub />,
 };
 
@@ -143,7 +143,7 @@ const mongoose = {
 };
 const expressvalidator = {
   title: "express-validator",
-  url: "https://www.npmjs.com/package/bcryptjs",
+  url: "https://www.npmjs.com/package/express-validator",
   iconEl: <LuPackage />,
 };
 const jsonwebtoken = {
@@ -166,8 +166,9 @@ export const projectData = [
 It uses Node.js and Express for server-side logic, React for front-end, and MongoDB database. I was responsible
  for its design and creation. It supports features like authentication (log in, sign up, account verification, 
   password reset), cart (adding, removing, updating, reading), and orders (ordering items, generating PDF invoices,
-     and sending invoices via email). The task was quite challenging but I gained a lot of knowledge from it. I'm glad I
-      took it. And if you ever feel bored on it, you can always click on the bee and take it for a fly with the arrow keys. `,
+     and sending invoices via email).The React application was deployed on AWS S3 Bucket with CloudFront as a CDN and the Node.js application was deployed on an EC2 instance.
+      The task was quite challenging, but I gained a lot of knowledge from it. 
+     I'm glad I took it. And if you ever feel bored of it, you can always click on the bee and take it for a fly with the arrow keys. `,
     link: {
       url: "https://gazdinstvodamjan.com",
       title: "Gazdinstvo Damjan",
@@ -203,10 +204,8 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     longDescription: `This project is a recreation of a well-known Tesla Cybertruck website. The idea was to copy 
     this site to demonstrate that I can do my job using the given design. The components and animations were
      all built by me, and they can be found on my Github repository at the link above. The application uses 
-     React (Vite) for building and managing components, which I find to be a great tool for front-end development 
-     and I love using it. I used Tailwind CSS for styling, which goes well with React because you can reuse your
-      components and style them only once. I used the @react-spring library for physics-based animations that look very natural 
-      to the human eye. The project was deployed on AWS. I uploaded Dist folder to AWS S3 bucket and used CloudFront for distributing 
+     React (Vite) for building and managing components. I used Tailwind CSS for styling, @react-spring library for physics-based animations.
+      The project was deployed on AWS. I uploaded Dist folder to AWS S3 bucket and used CloudFront for distributing 
       it with low latency, as it uses regional edge locations and edge locations to cache data very close to the users.`,
     link: {
       url: "https://d1q42h8kfu47gl.cloudfront.net",
