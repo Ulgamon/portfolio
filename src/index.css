@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: whitesmoke;
+body,
+html {
   overflow-x: hidden;
   /* I will put overscroll x hidden so i dont see it in my transitions */
+}
+
+body {
+  background-color: whitesmoke;
 }
 
 /* Scrollbar styling */
@@ -22,8 +26,8 @@ body {
 }
 
 ::selection {
-  color: rgb(0, 0, 0);
-  background: white;
+  color: #742A77;
+  background: #D795D9;
 }
 
 .realisticshadow {

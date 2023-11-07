@@ -3,7 +3,7 @@ import StackItem from "./StackItem";
 const ProjectMain = ({ project }) => {
   return (
     <div className="w-full p-5">
-      <h4 className="text-xl font-gotham">
+      <h4 className="text-sm sm:text-xl text-ellipsis font-gotham">
         Visit Website:{" "}
         <a
           className="hover:underline text-gray-800"
@@ -15,7 +15,7 @@ const ProjectMain = ({ project }) => {
         .
       </h4>
       {project.githubLink && (
-        <h4 className="text-xl font-gotham">
+        <h4 className="text-xl text-ellipsis font-gotham">
           See Code On Github:{" "}
           <a
             className="hover:underline text-gray-800"

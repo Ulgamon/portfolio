@@ -10,9 +10,9 @@ import NavBar from "./components/NavBar/NavBar";
 function App() {
   let location = useLocation();
   const transitions = useTransition(location, {
-    from: { opacity: 0, transform: "translateX(100%)" },
-    enter: { opacity: 1, transform: "translateX(0)" },
-    leave: { opacity: 0, transform: "translateX(-50%)" },
+    from: { opacity: 0, transform: "translateX(100%)", display: "hidden" },
+    enter: { opacity: 1, transform: "translateX(0)", display: "block" },
+    leave: { opacity: 0, transform: "translateX(-50%)", display: "hidden" },
     exitBeforeEnter: true,
   });
   console.log(location);

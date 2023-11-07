@@ -200,7 +200,7 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     id: 1,
     title: "Tesla Cybertruck",
     shortDescription:
-      "I really liked the design and the animations of the site.",
+      "I really liked the design of cybertruck webpage and their animations.",
     longDescription: `This project is a recreation of a well-known Tesla Cybertruck website. The idea was to copy 
     this site to demonstrate that I can do my job using the given design. The components and animations were
      all built by me, and they can be found on my Github repository at the link above. The application uses 
@@ -222,7 +222,7 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     id: 2,
     title: "Firewatch",
     shortDescription:
-      "I really liked the design and the animations of the site.",
+      "Their use of parallax effect is awesome you should see it.",
     longDescription: `Firewatch. Their website is awesome and I really liked it. They use parallax effect to create the 
     illusion of distance as the elements move at different speeds when scrolling e.g., closest element moves much faster
      than the most distant object. I used React for building this project and wanted to show that I can work from design. 

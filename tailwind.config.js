@@ -5,16 +5,16 @@ export default {
     extend: {
       colors: {
         pastelBlue: {
-          primary: "#79addc",
+          primary: "#039be5",
           secondary: "#dde1e7",
         },
         pastelGreen: {
-          primary: "#adf7b6",
+          primary: "#77dd77",
           secondary: "#F7DBAD",
           tertiary: "#ADC9F7",
         },
         pastelOrange: {
-          primary: "#ffc09f",
+          primary: "#ffa071",
           secondary: "#f7d9c4",
           complementarySec: "#C4E2F7",
           triadGreen: "#E2F7C4",
