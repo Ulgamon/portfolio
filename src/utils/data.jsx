@@ -201,11 +201,11 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     title: "Tesla Cybertruck",
     shortDescription:
       "I really liked the design of cybertruck webpage and their animations.",
-    longDescription: `This project is a recreation of a well-known Tesla Cybertruck website. The idea was to copy 
+    longDescription: `This project is a recreation of a Tesla Cybertruck website. The idea was to copy 
     this site to demonstrate that I can do my job using the given design. The components and animations were
      all built by me, and they can be found on my Github repository at the link above. The application uses 
-     React (Vite) for building and managing components. I used Tailwind CSS for styling, @react-spring library for physics-based animations.
-      The project was deployed on AWS. I uploaded Dist folder to AWS S3 bucket and used CloudFront for distributing 
+     React (Vite) for building and managing components. I used Tailwind CSS for styling and @react-spring library for physics-based animations.
+      The project was deployed on AWS. I uploaded dist folder to AWS S3 bucket and used CloudFront for distributing 
       it with low latency, as it uses regional edge locations and edge locations to cache data very close to the users.`,
     link: {
       url: "https://d1q42h8kfu47gl.cloudfront.net",
@@ -227,7 +227,7 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     illusion of distance as the elements move at different speeds when scrolling e.g., closest element moves much faster
      than the most distant object. I used React for building this project and wanted to show that I can work from design. 
      The project was deployed on AWS using CloudFront CDN for content delivery. I used @react-spring for Parallax animation.
-      They didn't use physics-based animation, and I find mine better because it feels more natural.`,
+      They didn't use physics-based animation, and I find mine looking more natural.`,
     link: {
       url: "https://d2aiq123gknzes.cloudfront.net/",
       title: "Firewatch",

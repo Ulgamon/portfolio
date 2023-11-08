@@ -12,12 +12,11 @@ const About = () => {
         backgroundSize: "contain",
       }}
     >
-      <section className="w-full md:w-3/4 lg:w-1/2 max-w-[1240px] rounded-lg p-10 mx-auto bg-slate-900 text-dirtyWhite realisticshadow">
+      <section className="w-full md:w-3/4 lg:w-1/2 max-w-[1240px] rounded-lg p-5 sm:p-10 mx-auto bg-slate-900 text-dirtyWhite realisticshadow">
         <h1 className="font-sarina text-center text-3xl md:text-6xl mb-5">
           About Me
         </h1>
-        <p className="text-lg proximanova mb-5"></p>
-        <p className="text-lg font-proximanova">
+        <p className="text-md sm:text-lg font-proximanova">
           Hello, I'm Justin. I'm a Serbian programmer who is 22 years old. I'm
           constantly looking to expand my knowledge and experience. I have been
           honing my web programming skills for the past couple of years. I began

@@ -26,8 +26,8 @@ body {
 }
 
 ::selection {
-  color: #742A77;
-  background: #D795D9;
+  color: black;
+  background: #772C7A;
 }
 
 .realisticshadow {
