@@ -6,10 +6,10 @@ const MainLink = ({ to, title, className }) => {
       <div
         style={{
           clipPath:
-            "polygon(0 40px,40px 0,100% 0,100% calc(100% - 40px),calc(100% - 40px) 100%,0 100%)",
+            "polygon(0 25px,25px 0,100% 0,100% calc(100% - 25px),calc(100% - 25px) 100%,0 100%)",
         }}
         className={
-          " text-4xl md:text-7xl w-full my-2 p-2 py-4 px-10 ease-in-out transition-transform duration-500 hover:scale-110 rounded-full will-change-transform " +
+          " text-2xl md:text-4xl w-full my-2 p-2 py-4 ease-in-out transition-transform duration-500 hover:scale-110 rounded-full will-change-transform " +
           className
         }
       >

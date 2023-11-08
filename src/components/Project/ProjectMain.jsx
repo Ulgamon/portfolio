@@ -34,7 +34,7 @@ const ProjectMain = ({ project }) => {
           <StackItem key={el.title} item={el} />
         ))}
       </div>
-      <div className=" xl:w-3/4 mx-auto my-16">
+      <div className=" xl:w-3/4 mx-auto px-5 my-16">
         <h4 className="text-xl my-3 font-playfair-reg">Description:</h4>
         <p className="text-md sm:text-lg font-gotham">{project.longDescription}</p>
       </div>

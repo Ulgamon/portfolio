@@ -13,7 +13,7 @@ const About = () => {
       }}
     >
       <section className="w-full md:w-3/4 lg:w-1/2 max-w-[1240px] rounded-lg p-5 sm:p-10 mx-auto bg-slate-900 text-dirtyWhite realisticshadow">
-        <h1 className="font-sarina text-center text-3xl md:text-6xl mb-5">
+        <h1 className="font-sarina text-center text-2xl md:text-4xl mb-5">
           About Me
         </h1>
         <p className="text-md sm:text-lg font-proximanova">

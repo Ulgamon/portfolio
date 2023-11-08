@@ -14,7 +14,6 @@ const Contact = () => {
     changeInputHandler: changeNameInputHandler,
     enteredValue: name,
     invalidInput: nameInvalidInput,
-    reset: resetName,
     valueIsValid: nameIsValid,
   } = useInput((value) => value.trim());
 
@@ -23,7 +22,6 @@ const Contact = () => {
     changeInputHandler: changeEmailInputHandler,
     enteredValue: email,
     invalidInput: emailInvalidInput,
-    reset: resetEmail,
     valueIsValid: emailIsValid,
   } = useInput((value) => value.trim());
 
@@ -32,7 +30,6 @@ const Contact = () => {
     changeInputHandler: changeMessageInputHandler,
     enteredValue: message,
     invalidInput: messageInvalidInput,
-    reset: resetMessage,
     valueIsValid: messageIsValid,
   } = useInput((value) => value.trim());
 
@@ -86,7 +83,7 @@ const Contact = () => {
   return (
     <div className="w-full min-h-screen bg-pastelOrange-secondary px-1 flex justify-center items-center text-slate-800">
       <div className="w-full md:w-3/4 lg:w-1/2 max-w-[800px] mx-auto bg-white p-10 rounded-lg realisticshadow font-gotham">
-        <h1 className="text-5xl mb-2 text-center font-sarina">Contact</h1>
+        <h1 className="text-2xl sm:text-4xl mb-2 text-center font-sarina">Contact</h1>
         <form onSubmit={submitHandler}>
           <div className="w-full">
             <div>
