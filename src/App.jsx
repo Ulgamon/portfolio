@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import ProjectID from "./pages/ProjectID";
 import NavBar from "./components/NavBar/NavBar";
+import Error404 from "./pages/Error404";
 
 function App() {
   let location = useLocation();
@@ -27,6 +28,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/:id" element={<ProjectID />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Error404 />} />
           </Routes>
         </animated.div>
       ))}

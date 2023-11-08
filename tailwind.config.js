@@ -18,6 +18,7 @@ export default {
           secondary: "#f7d9c4",
           complementarySec: "#C4E2F7",
           triadGreen: "#E2F7C4",
+          error: "#E54D03",
         },
         dirtyWhite: "#eff0ff",
       },

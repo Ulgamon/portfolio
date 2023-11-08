@@ -222,7 +222,7 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
     id: 2,
     title: "Firewatch",
     shortDescription:
-      "Their use of parallax effect is awesome you should see it.",
+      "Their use of parallax effect is awesome you should definitely see it.",
     longDescription: `Firewatch. Their website is awesome and I really liked it. They use parallax effect to create the 
     illusion of distance as the elements move at different speeds when scrolling e.g., closest element moves much faster
      than the most distant object. I used React for building this project and wanted to show that I can work from design. 
@@ -247,7 +247,7 @@ It uses Node.js and Express for server-side logic, React for front-end, and Mong
       "This is the site you are currently on. I hope you like it :).",
     longDescription: `I built this site to showcase my projects and skills.`,
     link: {
-      url: "https://localhost:5173",
+      url: "https://justinilic.com",
       title: "Portfolio",
     },
     imagePath: portfolio,
